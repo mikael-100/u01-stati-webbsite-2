@@ -1,0 +1,240 @@
+/* Global komands */
+@import url('https://fonts.googleapis.com/css2?family=Jaldi&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100;1,300&display=swap');
+
+*{
+    font-family: 'Jaldi', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    line-height: 1.5;
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+    color: #ddd;
+    overflow-x: hidden;
+    
+    
+}
+
+:root{
+    --main-color: #f77f00;
+}
+html{
+    font-size: 80%;
+    background-color: #000000;
+    
+}
+
+
+section{
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+main{
+    padding: 20px;
+}
+
+h2, h3{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+p{
+    padding-bottom: 70px;
+}
+
+/* Nanbar */
+
+#nav{
+    position: fixed;
+    background-color: #000000;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+    
+    
+    
+}
+
+#nav li{
+    float: left;
+    display: block;
+    display: flex;
+    
+    
+}
+
+li:hover{
+    background-color: #2d2d2d;
+}
+li a:hover{
+    color: #f77f00;
+}
+
+#nav li a{
+    padding: 10px 20px;
+    font-size: 130%;
+    
+}
+
+
+
+
+
+
+/* Profilbild */
+
+.mike-bild-box{
+   width: 130px;
+   height: 130px;
+   
+   
+   
+   background: linear-gradient(0deg, rgba(18,69,69,1) 0%, rgba(255,255,255,1) 100%);
+   display:flex;
+   justify-content: center;
+   overflow: hidden;
+   border-radius: 50%;
+}
+.mike-bild{
+    
+    height: 300px;
+    margin-top: -75px;
+    margin-right: -7px;
+    filter: brightness(0.8);
+    
+}
+
+.bild-namn{
+    display: flex;
+    justify-content: center;
+    padding-top: 130px;
+   
+    
+    
+    
+    
+}
+    
+.namn{
+    padding-left: 10px;
+    padding-top: 25px;
+
+}
+
+.nyfärg{
+    color: #f77f00;
+}
+
+
+/* Videos */
+video{
+    width: 100vw;
+    height: 200px;
+    
+}
+iframe{
+    width: 100vw;
+    height: 200px;
+    
+    
+}
+
+/* Table Låtar */
+
+#låtlista{
+    width: 90vw;
+    border: 10px solid #6F3325;
+}
+
+#låtlista th{
+    padding: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    background-color: #544a48;
+}
+#låtlista tr:nth-child(even){
+    background-color: #000000;
+}
+
+#låtlista td, #låtlista tr{
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+#låtlista tr:hover {
+    background-color: #6F3325;
+}
+
+/* Table */
+
+
+label, form {
+    display: block;
+    
+    
+    
+    
+}
+
+form>input, textarea{
+    width: 100vw;
+    
+}
+
+form input{
+    color: #000000;
+
+}
+form label{
+    font-size: 140%;
+    padding-top: 20px;
+}
+
+.form-container{
+    height: 70vh;
+}
+
+button{
+    background: #890808;
+    border: none;
+    padding: 15px;
+    font-size: 150%;
+    border-radius: 20%;
+    margin-top: 20px;
+    align-items: center;
+    display: block;
+    margin-bottom: 100px;
+}
+
+button:hover{
+    color: var(--main-color);
+    background-color: #2d2d2d;
+    
+}
+
+
+
+
+/* Section
+
+Fixa iconer för telefon och mail.
+
+*/
+
+
+
+
+
+
+
+
+
+

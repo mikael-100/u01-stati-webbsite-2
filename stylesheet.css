@@ -9,7 +9,7 @@
     
     text-decoration: none;
     text-transform: capitalize;
-    transition: all .2s linear;
+    /* transition: all .2s linear; */
     line-height: 1.5;
     scroll-behavior: smooth;
     scroll-padding-top: 100px;
@@ -116,6 +116,7 @@ li a:hover{
     display: flex;
     justify-content: center;
     padding-top: 130px;
+    flex-wrap: wrap;
    
     
     
@@ -133,6 +134,17 @@ li a:hover{
     color: #f77f00;
 }
 
+/* Linje */
+
+.hr-topp{
+    width: 80%;
+    
+    border-color: #2d2d2d;
+    width: 70%;
+    margin: auto;
+}
+
+
 
 /* Videos */
 video{
@@ -149,27 +161,27 @@ iframe{
 
 /* Table Låtar */
 
-#låtlista{
+#latlista{
     width: 90vw;
     border: 10px solid #6F3325;
 }
 
-#låtlista th{
+#latlista th{
     padding: 10px;
     padding-bottom: 10px;
     text-align: left;
     background-color: #544a48;
 }
-#låtlista tr:nth-child(even){
+#latlista tr:nth-child(even){
     background-color: #000000;
 }
 
-#låtlista td, #låtlista tr{
+#latlista td, #latlista tr{
     border: 1px solid #000000;
     padding: 8px;
 }
 
-#låtlista tr:hover {
+#latlista tr:hover {
     background-color: #6F3325;
 }
 
@@ -198,10 +210,6 @@ form label{
     padding-top: 20px;
 }
 
-.form-container{
-    height: 70vh;
-}
-
 button{
     background: #890808;
     border: none;
@@ -211,7 +219,7 @@ button{
     margin-top: 20px;
     align-items: center;
     display: block;
-    margin-bottom: 100px;
+    
 }
 
 button:hover{
@@ -220,18 +228,163 @@ button:hover{
     
 }
 
+/* Footer */
+
+.container-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 15px;
+}
+
+#phone-size{
+    padding: 20px;
+    font-size: 6vh;
+}
+#mail-size{
+    padding: 20px;
+    font-size: 6vh;
+}
 
 
 
-/* Section
-
-Fixa iconer för telefon och mail.
-
-*/
 
 
 
+/* Desktoplayout*/
 
+@media (min-width:391px) {
+    
+   *{
+    font-size: 103%;
+    max-f
+   }
+    
+    #nav{
+        width: 20vw;
+        height: 100vh;
+        text-align: center;
+    }
+
+    .nav{
+        margin-top: 10vh;
+    }
+    #nav ul.nav{
+        flex-direction: row;
+        
+        
+        
+    }
+    #nav li {
+        float: none;
+        margin-top: 20px; 
+      } 
+
+    .hr-side{
+        height: 80%;
+        margin-top: 10vh;
+        width: auto;
+        border-color: #2d2d2d;
+        
+    }
+      
+
+
+    main{
+        flex: 1;
+        margin-left: 20vw;
+        margin-right: 3vw;
+    }
+  
+    .bild-namn {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center; 
+        padding-top: 60px; 
+    }
+
+    .namn {
+        padding-top: 10px; /* Lägg till lite mellanrum mellan bilden och namnet */
+    }
+
+    /* Video */
+
+    video{
+    width: 450px;
+    height: 50%;
+    
+    }
+
+    iframe{
+        width: 160%;
+        height: 325px;
+    }
+
+    .videos-container{
+        
+        display: flex;
+        flex-direction:row;
+        justify-content:space-around;
+        flex-wrap: wrap;
+    }
+
+    .musik-video-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Latlista */
+
+    #latlista{
+        width: 70%;
+        
+    }
+
+    .latlista-container{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+    /* Form */
+
+    .table-pos{
+        width: 70%;
+        
+    }
+
+    .form-container{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* Footer */
+
+    .container-footer{
+        width: 80vw;
+        margin-left: auto;
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    #phone-size, #mail-size{
+        font-size: 7vw;
+        
+    }
+
+
+
+    
+    
+
+
+
+
+    }
 
 
 

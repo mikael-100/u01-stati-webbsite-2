@@ -92,7 +92,7 @@ li a:hover{
 /* Profilbild */
 
 .mike-bild-box{
-   width: 130px;
+   width: 100%;
    height: 130px;
    
    
@@ -257,7 +257,6 @@ button:hover{
     
    *{
     font-size: 103%;
-    max-f
    }
     
     #nav{

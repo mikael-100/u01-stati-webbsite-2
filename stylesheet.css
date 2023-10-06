@@ -92,26 +92,30 @@ li a:hover{
 /* Profilbild */
 
 .mike-bild-box{
-   width: 100%;
-   height: 130px;
-   
-   
-   
+   width: 300px;
+   height: auto;
    background: linear-gradient(0deg, rgba(18,69,69,1) 0%, rgba(255,255,255,1) 100%);
    display:flex;
    justify-content: center;
-   overflow: hidden;
-   border-radius: 50%;
 }
 .mike-bild{
-    
     height: 300px;
-    margin-top: -75px;
+    width: auto;
     margin-right: -7px;
     filter: brightness(0.8);
     
+    
 }
 
+figure.bild{
+width: 150px;
+height: 150px;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 50%;
+overflow: hidden;
+}
 .bild-namn{
     display: flex;
     justify-content: center;
@@ -153,10 +157,15 @@ video{
     
 }
 iframe{
+    width: 90vw;
+    height: 200px; 
+}
+
+.karl, .moto {
+    height: 60%;
     width: 100vw;
-    height: 200px;
-    
-    
+
+
 }
 
 /* Table Låtar */
@@ -326,7 +335,26 @@ button:hover{
         flex-direction:row;
         justify-content:space-around;
         flex-wrap: wrap;
+       
+        
     }
+    div.videos-container h3 {
+        display: block;
+        width: 100%;
+        align-items: center;
+    }
+
+    .videos-container div{
+       
+        height: 500px;
+        overflow: hidden;
+    }
+
+    .karl, .moto{
+       height: 60%;
+       width: 80%;
+    }
+
 
     .musik-video-container{
         display: flex;
